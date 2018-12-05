@@ -1,0 +1,13 @@
+.inputForm { 
+    float: right;
+}
+
+#logo {
+    float: right; 
+    margin-top: 20px;
+    margin-left: 1000px;
+}
+
+p { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
