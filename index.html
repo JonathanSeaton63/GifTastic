@@ -6,22 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GifTastic</title>
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <script src="assets/javascript/app.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="container">
-    <div></div>
+        <div id="buttonView"></div>
+        <div id="display-images"></div>
         <div class="inputForm">
             <form>
                 <p>Add a GIPHY:</p> <br>
-                <input type="text" vaule="search" size="40">
-                    <input type="submit" value="Sumbit" id="start"></input>
+                <input type="text" vaule="search" size="40" id="user-input">
+                <input type="submit" value="Sumbit" id="addBtn"></input>
             </form>
         </div>
         <div>
@@ -30,5 +28,6 @@
     </div>
 
 </body>
+<script src="assets/javascript/app.js"></script>
 
 </html>
